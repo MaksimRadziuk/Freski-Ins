@@ -1,0 +1,34 @@
+@font-face{
+font-family: 'PFD-Light';
+src:url('PFDinTextCompPro-Light_0.ttf') format('truetype');
+font-weight: light;
+font-style: normal;
+}
+
+@font-face{
+font-family: 'PFD-italic';
+src:url('pfdintextcomppro-italic.ttf') format('truetype');
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'PFD-Regular';
+src:url('PFDinTextCompPro-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'PFD-thin';
+src:url('pfdintextcomppro-thin.ttf') format('truetype');
+font-weight: thin;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'PFD-thinital';
+src:url('pfdintextcomppro-thinital.ttf') format('truetype');
+font-weight: italic;
+font-style: normal;
+}

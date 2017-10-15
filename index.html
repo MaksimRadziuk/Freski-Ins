@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Freski</title>
+
+	<meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+	<link href="css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="fonts/style-fonts.css" type="text/css">
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+	<div id="modal-call" class="modal fade">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close-button.png" alt="close"></button>
+	        <h4 class="modal-title">заполните форму, мы перезвоним</h4>
+	      </div>
+	      <div class="modal-body">
+	        <input type="text" class="name" placeholder="Ваше имя">
+	        <input type="text" class="phone" placeholder="Номер телефона">
+	        <input type="checkbox" id="politic" > 
+	        <label for="politic">Принимаю <a href="#">Пользовательское отношение</a> и <a href="#">Политику конфиденциальности</a></label>
+	      </div>
+	      <div class="modal-footer">
+	        <button data-dismiss="modal">Заказать звонок</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div id="modal-thankyou" class="modal fade">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close-button.png" alt="close"></button>
+	        <h1>спасибо!</h1>
+	        <p>Наш менеджер свяжется с вами в ближайшее время</p>
+	      	
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<header>
+		<div class="container-fluid topbar">
+			<div class="hidden-menu">
+				<div class="nav">
+					<ul>
+						<li><a href="#">Фрески</a></li>
+						<li><a href="#">Фотообои</a></li>
+						<li><a href="#">Материалы и цены</a></li>
+						<li><a href="#">Наши работы</a></li>
+						<li><a href="#">контакты</a></li>
+					</ul>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li><a href="#">Доставки и оплата</a></li>
+						<li><a href="#">Услуги</a></li>
+						<li><a href="#">Отзывы</a></li>
+						<li><a href="#">Акции</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</div>
+				<div class="phone-number">
+					<i class="fa fa-phone fa-rotate-270" aria-hidden="true"></i>
+					<a href="tel:+74951112233">+7 (495) 111 - 22 - 33</a>
+				</div>
+				<div class="measurements">
+						Выезд на замер
+				</div>
+				<div class="daily">
+					<i class="fa fa-clock-o" aria-hidden="true"></i>
+					Ежедневно с 9:00 до 20:00
+				</div>
+				<div class="close-hidden-menu"></div>
+			</div>
+			<div class="mobile">
+				<div>
+					<button class="nav-mobile">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+					<button class="search"><i class="fa fa-search" aria-hidden="true"></i></button>
+				</div>
+				<div>
+					<button class="sign-in-mobile"><i class="fa fa-user" aria-hidden="true"></i></button>
+					<div class="busket">
+						<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+						<div class="busket-amount">1</div>
+					</div>
+				</div>
+
+			</div>
+
+				<div class="topbar-wrapper">
+					<div class="navigation">
+						<ul>
+							<li><a href="#">Доставки и оплата</a></li>
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">Акции</a></li>
+							<li><a href="#">FAQ</a></li>
+						</ul>
+					</div>
+					<div class="search-input">
+						<input type="text" placeholder="Поиск по артикулу или названию">
+					</div>
+					<div class="sign-in-box">
+						<div class="sign-in">
+							<a href="#"><i class="fa fa-user" aria-hidden="true"></i>Вход</a>
+						</div>
+						<div class="busket-block">
+							<div class="busket">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								<div class="busket-amount">1</div>
+							</div>
+							<div class="sum">
+								<p>на 
+									<span>
+									45 000
+									</span> руб.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="container-fluid slider-box">
+			
+			<div class="container-fluid slider-header">
+				<div class="header-overlay">
+					<div class="header-wrap">
+						<div class="logo">
+							<h2>фотообои и фрески</h2>
+							<p>Уют Вашего дома начинается здесь!</p>
+						</div>
+						<div class="container1">
+							<div class="measurements">
+								Выезд на замер
+							</div>
+							<div class="daily">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								Ежедневно с 9:00 до 20:00
+							</div>
+						</div>
+						<div class="container2">
+							<div class="phone-number">
+								<i class="fa fa-phone fa-rotate-270" aria-hidden="true"></i>
+								<a href="tel:+74951112233">+7 (495) 111 - 22 - 33</a>
+							</div>
+							<div class="call-order btn">
+								<a href="#">Заказать звонок</a>
+								<i class="fa fa-phone fa-rotate-270" aria-hidden="true"></i>
+							</div>
+						</div>
+						
+					</div>
+					<div class="nav">
+						<ul>
+							<li><a href="#">Фрески</a></li>
+							<li><a href="#">Фотообои</a></li>
+							<li><a href="#">Материалы и цены</a></li>
+							<li><a href="#">Наши работы</a></li>
+							<li><a href="#">контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="overlay-black">
+	            <div class="nav-string">
+	            	<a href="#">Главная</a> / 
+	            	<a href="#">Фрески</a> / 
+	            	<a href="#">Животный мир</a>
+	            </div>
+	            <div class="title-block">
+	            	<h1>Фрески :</h1>
+	            	<h1> Животный мир</h1>
+	            	<div class="item-amount">
+	            		(220)
+	            	</div>
+	            </div>
+	        </div>
+			
+		</div>
+
+		<div class="container-fluid del-pay">
+			<h1>доставка и оплата</h1>
+			<div class="delivery-box">
+				<h2>способы доставки</h2>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="img-block courier"></div>
+						<div class="description">
+							<h3>доставка курьером</h3>
+							<p>Современные фрески - это не только изображение ангелочков или сюжетов церковной жизни. Это высокотехнологичный процесс переноса понравившегося вам рисунка, фотографии на стены вашего дома. Это замечательный способ самовыражения, оригинального мышления и утонченного чувства стиля. Новые технологии позволяют выбрать рисунок по своему вкусу и пожеланиям (будь-то готовое изображение на фотообоях или выполненная по индивидуальному заказу у дизайнера).</p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="img-block self"></div>
+						<div class="description">
+							<h3>самовывоз</h3>
+							<p>Современные фрески - это не только изображение ангелочков или сюжетов церковной жизни. Это высокотехнологичный процесс переноса понравившегося вам рисунка, фотографии на стены вашего дома. Это замечательный способ самовыражения, оригинального мышления и утонченного чувства стиля. Новые технологии позволяют выбрать рисунок по своему вкусу и пожеланиям (будь-то готовое изображение на фотообоях или выполненная по индивидуальному заказу у дизайнера).</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="img-block post"></div>
+						<div class="description">
+							<h3>почта россии</h3>
+							<p>Современные фрески - это не только изображение ангелочков или сюжетов церковной жизни. Это высокотехнологичный процесс переноса понравившегося вам рисунка, фотографии на стены вашего дома. Это замечательный способ самовыражения, оригинального мышления и утонченного чувства стиля. Новые технологии позволяют выбрать рисунок по своему вкусу и пожеланиям (будь-то готовое изображение на фотообоях или выполненная по индивидуальному заказу у дизайнера).</p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="img-block transport"></div>
+						<div class="description">
+							<h3>транспортные компании</h3>
+							<p>Современные фрески - это не только изображение ангелочков или сюжетов церковной жизни. Это высокотехнологичный процесс переноса понравившегося вам рисунка, фотографии на стены вашего дома. Это замечательный способ самовыражения, оригинального мышления и утонченного чувства стиля. Новые технологии позволяют выбрать рисунок по своему вкусу и пожеланиям (будь-то готовое изображение на фотообоях или выполненная по индивидуальному заказу у дизайнера).</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="img-block express"></div>
+						<div class="description">
+							<h3>экспресс доставка ems</h3>
+							<p>Современные фрески - это не только изображение ангелочков или сюжетов церковной жизни. Это высокотехнологичный процесс переноса понравившегося вам рисунка, фотографии на стены вашего дома. Это замечательный способ самовыражения, оригинального мышления и утонченного чувства стиля. Новые технологии позволяют выбрать рисунок по своему вкусу и пожеланиям (будь-то готовое изображение на фотообоях или выполненная по индивидуальному заказу у дизайнера).</p>
+						</div>
+					</div>
+					<div class="col-lg-6"></div>
+				</div>
+			</div>
+			<div class="pay-box">
+				<h2>способы оплаты</h2>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="img-block cash"></div>
+						<div class="description">
+							<h3>наличные</h3>
+							<p>Современные фрески - это не только изображение ангелочков или сюжетов церковной жизни. Это высокотехнологичный процесс переноса понравившегося вам рисунка, фотографии на стены вашего дома. Это замечательный способ самовыражения, оригинального мышления и утонченного чувства стиля. Новые технологии позволяют выбрать рисунок по своему вкусу и пожеланиям (будь-то готовое изображение на фотообоях или выполненная по индивидуальному заказу у дизайнера).</p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="img-block nalpay"></div>
+						<div class="description">
+							<h3>наложенный платёж</h3>
+							<p>Современные фрески - это не только изображение ангелочков или сюжетов церковной жизни. Это высокотехнологичный процесс переноса понравившегося вам рисунка, фотографии на стены вашего дома. Это замечательный способ самовыражения, оригинального мышления и утонченного чувства стиля. Новые технологии позволяют выбрать рисунок по своему вкусу и пожеланиям (будь-то готовое изображение на фотообоях или выполненная по индивидуальному заказу у дизайнера).</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="img-block bank"></div>
+						<div class="description">
+							<h3>Оплата по счету в отделении любого банка</h3>
+							<p>Современные фрески - это не только изображение ангелочков или сюжетов церковной жизни. Это высокотехнологичный процесс переноса понравившегося вам рисунка, фотографии на стены вашего дома. Это замечательный способ самовыражения, оригинального мышления и утонченного чувства стиля. Новые технологии позволяют выбрать рисунок по своему вкусу и пожеланиям (будь-то готовое изображение на фотообоях или выполненная по индивидуальному заказу у дизайнера).</p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="img-block cards"></div>
+						<div class="description">
+							<h3>банковские карты</h3>
+							<p>Современные фрески - это не только изображение ангелочков или сюжетов церковной жизни. Это высокотехнологичный процесс переноса понравившегося вам рисунка, фотографии на стены вашего дома. Это замечательный способ самовыражения, оригинального мышления и утонченного чувства стиля. Новые технологии позволяют выбрать рисунок по своему вкусу и пожеланиям (будь-то готовое изображение на фотообоях или выполненная по индивидуальному заказу у дизайнера).</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	</section>
+	
+	<footer>
+		<div class="container-fluid wrapper">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 footer-block contacts">
+					<a href="tel:+74951112233">+7 (495) 111 - 22 - 33</a>
+					<a href="#">г.Москва, ул.Соловьиная Роща д.11 к.1</a>
+					<a href="mailto:info@f-fresco.ru">info@f-fresco.ru</a>
+					<a href="#">Ежедневно с 9:00 до 20:00</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 footer-block">
+					<a href="#">Фрески</a>
+					<a href="#">Фотообои</a>
+					<a href="#">Создание по своему фото</a>
+					<a href="#">Материалы</a>
+					<a href="#">Наши работы</a>
+					<a href="#">О компании</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 footer-block">
+					<a href="#">Доставка и оплата</a>
+					<a href="#">Услуги</a>
+					<a href="#">Статьи</a>
+					<a href="#">Акции</a>
+					<a href="#">FAQ</a>
+					<a href="#">Контакты</a>
+				</div>
+				<div class="footer-block submit-part">
+					<h3>Подпишись на рассылку свежих новостей</h3>
+					<input type="text" placeholder="Email">
+					<button class="btn-submit">Подписаться</button>
+				</div>
+			</div>
+			
+		
+			<div class="copyright-box row">
+				<div class="copyright col-lg-3 col-md-3 col-sm-3">
+					&copy 2006-2017 Francesco Fresco
+				</div>
+				<div class="footer-links col-lg-6 col-md-6 col-sm-6">
+					<a href="#">Политика конфиденциальности</a>
+					<a href="#">Использование cookies</a>
+					<a href="#">Пользовательское соглашение</a>
+					<a href="#">Дизайн и разработка <span>MVACorp</span></a>
+				</div>
+				<div class="social-links col-lg-3 col-md-3 col-sm-3">
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
