@@ -79,7 +79,7 @@ function prevSlide() {
         slideNow--;
     }
 }*/
-
+"use strict";
 //активация модального окна заказать звонок
 $(document).ready(function(){
   $(".btn").click(function() {
