@@ -27,7 +27,6 @@ body {
 	display: none;
 }
 
-
 .topbar-wrapper {
 	display: flex;
 	align-items: center;
@@ -157,7 +156,7 @@ body {
 
 
 /* ======== SLIDER BOX ==========*/
-.slider-box{
+.slider-box-ins{
   position:relative;
   width:100%;
   height:335px;
@@ -346,6 +345,10 @@ body {
 /* ======== END OVERLAY BLACK ==========*/
 
 /* ======== END SLIDER HEADER ==========*/
+
+
+
+
 
 
 
@@ -1051,7 +1054,7 @@ footer .row {
 	background-color: #f3f3f3;
 }
 #modal-thankyou .modal-header {
-	height: auto;
+	height: 350px;
 	background-color: #f3f3f3;
 	box-shadow: none;
 	border:none;
@@ -1296,9 +1299,6 @@ footer .row {
 
 
 @media all and (max-width: 640px) {
-	header {
-		height: 40px;
-	}
 	.topbar {
 		height: 40px;
 	}
@@ -1398,7 +1398,7 @@ footer .row {
 		font-size: 21px;
 		margin-top: 4px;
 	}
-	.slider-box {
+	.slider-box-ins {
 		height: 190px;
 	}
 	.overlay-black {
@@ -1458,8 +1458,6 @@ footer .row {
 	.feedback {
 		padding: 60px 20px 100px 20px;
 	}
-
-
 
 
 	footer {
@@ -1652,7 +1650,7 @@ footer .row {
 		background-color: #f3f3f3;
 	}
 	#modal-thankyou .modal-header {
-		height: auto;
+		height: 350px;
 		background-color: #f3f3f3;
 		box-shadow: none;
 		border:none;
