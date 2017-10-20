@@ -196,7 +196,7 @@
 	</header>
 
 	<section>
-
+<!-- ДОСТАВКА И ОПЛАТА -->
 		<div class="container-fluid del-pay">
 			<h1>доставка и оплата</h1>
 			<div class="delivery-box">
@@ -280,7 +280,7 @@
 				</div>
 			</div>
 		</div>
-
+<!-- КОНТАКТЫ -->
 		<div class="container-fluid contacts-box">
 			<h1>контакты</h1>
 				<div class="col-lg-4 col-sm-4 col-sm-4 contacts-block">
@@ -307,7 +307,7 @@
 					<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3bc4e0da1ab6c93c58ce6ac6d40c7cb0132f690a1fcb288883f7b7efd651cea1&amp;lang=ru_RU&amp;scroll=true&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
 				</div>
 		</div>
-
+<!-- ОБРАТНАЯ СВЯЗЬ -->
 		<div class="container-fluid feedback">
 			<div class="feedback-box">
 				<h1>форма обратной связи</h1>
@@ -329,7 +329,7 @@
 				</form>
 			</div>
 		</div>
-
+<!-- КОРЗИНА -->
 		<div class="container-fluid busket-box">
 			<h1>корзина</h1>
 			<div class="item-block">
@@ -395,7 +395,80 @@
 				</div>
 			</div>
 		</div>
-		
+<!-- ОФОРМЛЕНИЕ ЗАКАЗА -->
+		<div class="container-fluid ordering">
+			<h1>ОФОРМЛЕНИЕ ЗАКАЗА</h1>
+			<div class="ordering-wrap">
+				<div class="ordering-left">
+					<form action="#">
+						<input type="text" placeholder="Ваше имя">
+						<input type="text" placeholder="Номер телефона">
+						<input type="email" placeholder="E-mail">
+						<div class="select-box">
+							<div class="select-side">
+							    <i class="fa fa-angle-down"></i>
+							</div>
+							<select id="choice">
+								<option value="" disabled selected default>Способ доставки</option>
+								<option value="">Курьером</option>
+								<option value="">Почта России</option>
+								<option value="">EMS</option>
+								<option value="">Самовывоз</option>
+								<option value="">Транспортные компании</option>
+							</select>
+						</div>
+						<input type="text" placeholder="Адрес">
+						<textarea placeholder="Комментарий к адресу"></textarea>
+						<div class="paymentType">
+							<p>Оплата: </p>
+							<input type="radio" id="cash1" name="paymenttype"><label for="cash1">Наличными</label></input>
+							<input type="radio" id="beznal" name="paymenttype"><label for="beznal">Безналичный расчет</label></input>
+							<input type="radio" id="cod" name="paymenttype"><label for="cod">Наложеным платежом</label></input>
+						</div>
+						<input type="checkbox" id="politic2" > 
+			        		<label for="politic2" class="politic2">Принимаю <a href="#">Пользовательское отношение</a> и <a href="#">Политику конфиденциальности</a></label>
+						<a href="#" class="submit-order">Оформить заказ</a>
+					</form>
+				</div>
+				<div class="ordering-right">
+					<div class="order-name">Ваш заказ</div>
+					<div class="order-table">
+						<div class="order-line">
+							<p class="name">Фреска XA-0001 st</p>
+							<p class="amount">1 500<span class="rub">руб.</span></p>
+						</div>
+						<div class="order-line">
+							<p class="name">Монтаж сотрудниками</p>
+							<p class="amount">2 000<span class="rub">руб.</span></p>
+						</div>
+						<div class="order-line">
+							<p class="name">Клей</p>
+							<p class="amount">300<span class="rub">руб.</span></p>
+						</div>
+						<div class="order-sum">
+							<p class="name">Итого:</p>
+							<p class="amount">3 800<span class="rub">руб.</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- СПАСИБО ЗА ЗАКАЗ -->
+		<div class="container-fluid thnk-order">
+			<h1>спасибо за заказ</h1>
+			<div class="thnk-order-wrap">
+				<div class="text-part">
+					<p>Номер вашего заказа: <span>12345</span></p>
+					<p>Получатель: <span>Светлана Петрова</span></p>
+					<p>Адрес доставки: <span>Самара, ул.Ленина д.5</span></p>
+					<p>Способ оплаты: <span>наличные</span></p>
+					<p>Сумма оплаты: <span class="amount">1 500</span><span class="rub">руб.</span></p>
+					<p class="warning">Наш дизайнер свяжется с вами, пришлет макет на согласование и уточнит все детали заказа.</p>
+				</div>
+				<div class="img-part"></div>
+			</div>
+		</div>
+
 	</section>
 	
 	<footer>
