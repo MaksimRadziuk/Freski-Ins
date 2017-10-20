@@ -14,12 +14,13 @@
 	<link href="css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" />
 	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
 	<link rel="stylesheet" href="fonts/style-fonts.css" type="text/css">
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
+   <!--  <link href="css/style.css" type="text/css" rel="stylesheet" /> -->
+    <link href="css/sumStyle.css" type="text/css" rel="stylesheet" />
     
 
 </head>
 <body>
-	<div id="modal-call" class="modal-message modal fade">
+	<div id="modal-call" class="modal fade">
 	  <div class="modal-dialog">
 	    <div class="modal-content">
 	      <div class="modal-header">
@@ -38,7 +39,7 @@
 	    </div>
 	  </div>
 	</div>
-	<div id="modal-thankyou" class="modal fade">
+	<div id="modal-thankyou" class=".modal-message modal fade">
 	  <div class="modal-dialog">
 	    <div class="modal-content">
 	      <div class="modal-header">
@@ -65,7 +66,7 @@
 				</div>
 				<div class="navigation">
 					<ul>
-						<li><a href="#">Доставки и оплата</a></li>
+						<li><a href="#">Доставка и оплата</a></li>
 						<li><a href="#">Услуги</a></li>
 						<li><a href="#">Отзывы</a></li>
 						<li><a href="#">Акции</a></li>
@@ -107,8 +108,16 @@
 				<div class="topbar-wrapper">
 					<div class="navigation">
 						<ul>
-							<li><a href="#">Доставки и оплата</a></li>
-							<li><a href="#">Услуги</a></li>
+							<li><a href="#">Доставка и оплата</a></li>
+							<li class="drop"><a href="#">Услуги</a>
+								<ul class="dropdown-service">
+									<li><a href="#">абстракция</a></li>
+									<li><a href="#">3-D обои</a></li>
+									<li><a href="#">фрески</a></li>
+									<li><a href="#">архитектура</a></li>
+									<li><a href="#">детские обои</a></li>
+								</ul>
+							</li>
 							<li><a href="#">Отзывы</a></li>
 							<li><a href="#">Акции</a></li>
 							<li><a href="#">FAQ</a></li>
@@ -170,7 +179,17 @@
 					<div class="nav">
 						<ul>
 							<li><a href="#">Фрески</a></li>
-							<li><a href="#">Фотообои</a></li>
+							<li class="photo"><a href="#">Фотообои</a>
+								<ul class="dropdown-photo">
+									<li><a href="#">террасы и комнаты</a></li>
+									<li><a href="#">техника</a></li>
+									<li><a href="#">узоры и материалы</a></li>
+									<li><a href="#">финансы и бизнес</a></li>
+									<li><a href="#">цветы и растения</a></li>
+									<li><a href="#">черное и белое</a></li>
+									<li><a href="#">все тематики</a></li>
+								</ul>
+							</li>
 							<li><a href="#">Материалы и цены</a></li>
 							<li><a href="#">Наши работы</a></li>
 							<li><a href="#">контакты</a></li>
@@ -185,8 +204,7 @@
 	            	<a href="#">Животный мир</a>
 	            </div>
 	            <div class="title-block">
-	            	<h1>Фрески :</h1>
-	            	<h2> Животный мир</h2>
+	            	<h1><span>Фрески :</span><span>Животный мир</span></h1>
 	            	<div class="item-amount">
 	            		(220)
 	            	</div>

@@ -21,7 +21,6 @@ body {
 .topbar {
 	height: 50px;
 	background-color: #252529;
-	overflow:hidden;
 }
 .hidden-menu {
 	display: none;
@@ -44,11 +43,15 @@ body {
 	display: inline-block;
 }
 .navigation ul li a {
+	display: inline-block;
 	text-decoration:none;
 	color: #828283;
 	font-size: 14px;
 	line-height: 50px;
+	height: 100%;
 }
+
+
 
 
 .search-input{
@@ -345,8 +348,6 @@ body {
   position:relative;
   width:100%;
   height:335px;
-  overflow:hidden;
-  padding: 0 60px;
   background-image:url(../img/about2.png);
   background-size: cover;
   background-position: center 15%;
@@ -363,8 +364,7 @@ body {
 	width: 100%;
 	height: 135px;
 	background-color: rgba(255,255,255,0.9);
-	overflow:hidden;
-	z-index: 10;
+	z-index: 0;
 }
 .header-overlay {
 	padding: 0 60px;
@@ -469,7 +469,7 @@ body {
 }
 .nav ul li {
 	list-style: none;
-	height: 63px;
+	height: 58px;
 	padding: 0 20px;
 	cursor: pointer;
 	transition: 0.1s all linear;
@@ -481,7 +481,7 @@ body {
 	text-decoration: none;
 	text-transform: uppercase;
 	color:#333;
-	line-height: 63px;
+	line-height: 58px;
 	font-size: 18px;
 }
 /* ======== END HEADER OVERLAY ==========*/
@@ -489,13 +489,11 @@ body {
 /* ======== OVERLAY BLACK ==========*/
 
 .overlay-black {
-	position: absolute;
-	top: 134px;
-	left: 0;
-	height: 210px;
+	height: 201px;
 	width: 100%;
 	background-color: rgba(0,0,0,.5);
 	padding: 0 60px;
+	margin-top: 135px;
 }
 .nav-string {
 	display: block;
@@ -520,10 +518,12 @@ body {
 	text-transform: uppercase;
 	color: #babbab;
 }
-.title-block h2 {
-	color:#fff;
+.title-block span:nth-child(2) {
 	display: inline-block;
 	text-transform: uppercase;
+	color:#fff;
+	font-size: 36px;
+	margin-left: 5px;
 }
 .item-amount {
 	font-family: PFD-thin;
@@ -1251,6 +1251,22 @@ textarea {
 	-webkit-box-shadow: 7px 7px 3px 0px rgba(204,202,204,0.5);
 	-moz-box-shadow: 7px 7px 3px 0px rgba(204,202,204,0.5);
 	box-shadow: 7px 7px 3px 0px rgba(204,202,204,0.5);
+}
+.submit-order {
+    display: block;
+    line-height: 60px;
+    text-decoration: none;
+    width: 260px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 23px;
+    color: #fff;
+    background-color: #e1707c;
+    text-align: center;
+    letter-spacing: 2px;
+    -webkit-box-shadow: 7px 7px 3px 0px rgba(204,202,204,0.5);
+    -moz-box-shadow: 7px 7px 3px 0px rgba(204,202,204,0.5);
+    box-shadow: 7px 7px 3px 0px rgba(204,202,204,0.5);
 }
 .check-btn > div > label > a {
 	color: #a2a390;
@@ -2355,20 +2371,26 @@ footer .row {
 		height: 190px;
 	}
 	.overlay-black {
-		top: 59px;
+		margin-top: 60px;
+		height: 130px;
+
 		padding: 0 20px;
 	}
-	.title-block h1 {
+	.title-block {
+		margin-top: 5px;
+	}
+	.title-block h1 span:nth-child(1) {
 		display: block;
 		margin-bottom: -25px;
 		margin-bottom: 0;
 		margin-top: 5px;
 		font-size: 28px;
 	}
-	.title-block h2 {
+	.title-block h1 span:nth-child(2) {
 		margin-bottom: 0;
 		margin-top: 5px;
 		font-size: 28px;
+		margin-left: 0;
 	}
 	.item-amount {
 		font-size: 32px;
@@ -2844,6 +2866,9 @@ footer .row {
 	}
 	.close1 {
 		right: 40px;
+	}
+	.addService label.service1 {
+		margin-right: 0;	
 	}
 }
 
@@ -3334,4 +3359,83 @@ option[default] {
 	}
 }
 
+/* ======= ВЫПАДАЮЩИЕ МЕНЮ ======= */
 
+.navigation ul li a:hover {
+	color:#bc606a;
+}
+
+.drop {
+	position: relative;
+}
+.navigation ul li .dropdown-service {
+	position: absolute;
+	display: none;
+	top:50px;
+	left: 0;
+	width: 220px;
+	background-color: #323235;
+	z-index: 9;
+	padding-bottom: 20px;
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+.navigation ul li.drop:hover .dropdown-service{
+	display: block;
+	opacity: 1;
+}
+.navigation ul li .dropdown-service li{
+	padding: 10px 20px;
+	display: block;
+}
+.navigation ul li .dropdown-service li:hover a{
+	color:#d86d78;
+}
+.navigation ul li .dropdown-service li a{
+	display: block;
+	color:#828283;
+	text-decoration: none;
+	text-transform:uppercase;
+	text-align: left;
+	width: 100%;
+	height: 100%;
+}
+
+.photo {
+	position: relative;
+}
+.nav ul li .dropdown-photo {
+	position: absolute;
+	display: none;
+	top:58px;
+	left: 0;
+	width: 280px;
+	background-color: #f3f3f3;
+	z-index: 99999;
+	padding-bottom: 30px;
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+.nav ul li.photo:hover .dropdown-photo {
+	display: block;
+	opacity: 1;
+}
+.nav ul li .dropdown-photo li{
+	padding: 15px 30px;
+	display: block;
+}
+.nav ul li .dropdown-photo li:hover {
+	background-color: #f3f3f3;
+}
+.nav ul li .dropdown-photo li:hover a{
+	color:#d86d78;
+}
+.nav ul li .dropdown-photo li a{
+	display: block;
+	color:#464646;
+	text-decoration: none;
+	text-transform:uppercase;
+	text-align: left;
+	width: 100%;
+	height: 100%;
+}
