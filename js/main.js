@@ -125,3 +125,21 @@ $(document).ready(function(){
 });
 
 
+//открытие и закрытие блоков каталога
+$(document).ready(function(){
+  $("#toggleView1").click(function() {
+    $(".catalog-style").toggleClass('hide');
+  });
+});
+
+$(document).ready(function(){
+  $("#toggleView").click(function() {
+    $(".catalog-type").toggleClass('hide');
+  });
+});
+
+$(document).ready(function(){
+  $("#toggleView2").click(function() {
+    $(".colorpick-content-block").toggleClass('hide');
+  });
+});
