@@ -73,7 +73,7 @@ body {
 	display: block;
 	width: 15px;
 	height: 15px;
-	background-image: url(../img/search.png);
+	background-image: url(img/search.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -349,7 +349,7 @@ body {
   position:relative;
   width:100%;
   height:335px;
-  background-image:url(../img/about2.png);
+  background-image:url(img/about2.png);
   background-size: cover;
   background-position: center 15%;
   background-repeat: no-repeat;
@@ -397,7 +397,7 @@ body {
 .measurements:before {
 	content: '';
 	margin-right: 5px;
-	background: url(../img/ruler18x18.png) center no-repeat;
+	background: url(img/ruler18x18.png) center no-repeat;
 	width: 18px;
 	height: 18px;
 	display: inline-block;
@@ -579,37 +579,37 @@ body {
 	background-color: #72727b;
 }
 .promo-block:nth-child(1) .img-part {
-	background-image: url(../img/nth1.png);
+	background-image: url(img/nth1.png);
 	background-position: center center;
 	background-size: 50%;
 	background-repeat: no-repeat;
 }
 .promo-block:nth-child(2) .img-part {
-	background-image: url(../img/nth2.png);
+	background-image: url(img/nth2.png);
 	background-position: center center;
 	background-size: 50%;
 	background-repeat: no-repeat;
 }
 .promo-block:nth-child(3) .img-part {
-	background-image: url(../img/nth3.png);
+	background-image: url(img/nth3.png);
 	background-position: center center;
 	background-size: 50%;
 	background-repeat: no-repeat;
 }
 .promo-block:nth-child(4) .img-part {
-	background-image: url(../img/nth4.png);
+	background-image: url(img/nth4.png);
 	background-position: center center;
 	background-size: 50%;
 	background-repeat: no-repeat;
 }
 .promo-block:nth-child(5) .img-part {
-	background-image: url(../img/nth5.png);
+	background-image: url(img/nth5.png);
 	background-position: center center;
 	background-size: 50%;
 	background-repeat: no-repeat;
 }
 .promo-block:nth-child(6) .img-part {
-	background-image: url(../img/nth6.png);
+	background-image: url(img/nth6.png);
 	background-position: center center;
 	background-size: 50%;
 	background-repeat: no-repeat;
@@ -659,86 +659,86 @@ body {
 .grid-item--height4 { height: 40vw; }
 
 .bcg-lg {
-	background-image: url(../img/bcg-lg.png);
+	background-image: url(img/bcg-lg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
 }
 .bcg-sm-1 {
-	background-image: url(../img/bcg-sm-1.png);
+	background-image: url(img/bcg-sm-1.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .bcg-sm-2 {
-	background-image: url(../img/bcg-sm-2.png);
+	background-image: url(img/bcg-sm-2.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .bcg-sm-3 {
-	background-image: url(../img/bcg-sm-3.png);
+	background-image: url(img/bcg-sm-3.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .bcg-sm-3 {
-	background-image: url(../img/bcg-sm-3.png);
+	background-image: url(img/bcg-sm-3.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .bcg-sm-4 {
-	background-image: url(../img/bcg-sm-4.png);
+	background-image: url(img/bcg-sm-4.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .bcg-sm-5 {
-	background-image: url(../img/bcg-sm-5.png);
+	background-image: url(img/bcg-sm-5.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .bcg-sm-6 {
-	background-image: url(../img/bcg-sm-6.png);
+	background-image: url(img/bcg-sm-6.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .bcg-sm-7 {
-	background-image: url(../img/bcg-sm-7.png);
+	background-image: url(img/bcg-sm-7.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .bcg-sm-8 {
-	background-image: url(../img/bcg-sm-8.png);
+	background-image: url(img/bcg-sm-8.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .bcg-wd-1 {
-	background-image: url(../img/bcg-wd-1.png);
+	background-image: url(img/bcg-wd-1.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .bcg-wd-2 {
-	background-image: url(../img/bcg-wd-2.png);
+	background-image: url(img/bcg-wd-2.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .bcg-ht-1 {
-	background-image: url(../img/bcg-ht-1.png);
+	background-image: url(img/bcg-ht-1.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .bcg-ht-2 {
-	background-image: url(../img/bcg-ht-2.png);
+	background-image: url(img/bcg-ht-2.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -816,7 +816,7 @@ body {
 	position: relative;
 }
 .about-img1{
-	background-image: url(../img/about1.png);
+	background-image: url(img/about1.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -915,7 +915,7 @@ body {
 	height: 700px;
 }
 .about-img2{
-	background-image: url(../img/about2.png);
+	background-image: url(img/about2.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -959,7 +959,6 @@ body {
 /* ======== DEL-PAY ==========*/
 
 .del-pay {
-	border-top:2px solid #b9b9be;
 	padding: 60px;
 }
 .del-pay h1, .del-pay h2, .del-pay h3 {
@@ -1007,55 +1006,55 @@ body {
 	top: 0;left: 0;
 }
 .courier:after {
-	background-image: url(../img/courier.png);
+	background-image: url(img/courier.png);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .self:after {
-	background-image: url(../img/self.png);
+	background-image: url(img/self.png);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .post:after {
-	background-image: url(../img/post.png);
+	background-image: url(img/post.png);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .transport:after {
-	background-image: url(../img/transport.png);
+	background-image: url(img/transport.png);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .express:after {
-	background-image: url(../img/express.png);
+	background-image: url(img/express.png);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .cash:after {
-	background-image: url(../img/cash.png);
+	background-image: url(img/cash.png);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .nalpay:after {
-	background-image: url(../img/nalpay.png);
+	background-image: url(img/nalpay.png);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .bank:after {
-	background-image: url(../img/bank.png);
+	background-image: url(img/bank.png);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .cards:after {
-	background-image: url(../img/cards.png);
+	background-image: url(img/cards.png);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -1073,7 +1072,6 @@ body {
 /* ======== CONTACTS ==========*/
 
 .contacts-box {
-	border-top:2px solid #b9b9be;
 	padding: 60px 60px 100px 60px;
 }
 .contacts-box h1 {
@@ -1155,7 +1153,6 @@ body {
 /* ======== FEEDBACK ==========*/
 
 .feedback {
-	border-top:2px solid #b9b9be;
 	padding: 60px 60px 100px 60px;
 }
 .feedback-box {
@@ -1292,7 +1289,7 @@ body {
 	margin-bottom: -5px;
 }
 .check-btn > div > input[type='checkbox']:checked+label:before {
-	background-image: url(../img/input-checked.png);
+	background-image: url(img/input-checked.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -1329,7 +1326,7 @@ body {
 	right: 0;
 	width: 20px;
 	height: 20px;
-	background-image: url(../img/close-button.png);
+	background-image: url(img/close-button.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -1355,7 +1352,7 @@ body {
 .item-img {
 	width: 270px;
 	height: 270px;
-	background-image: url(../img/busket-bcg.png);
+	background-image: url(img/busket-bcg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -1388,7 +1385,7 @@ body {
 	display: inline-block;
 	width: 30px;
 	height: 30px;
-	background-image: url(../img/busket-bcg.png);
+	background-image: url(img/busket-bcg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -1426,7 +1423,7 @@ body {
 	display: inline-block;
 	width: 18px;
 	height: 12px;
-	background-image: url(../img/return.png);
+	background-image: url(img/return.png);
 	background-repeat: no-repeat;
 	background-size: 150%;
 	background-position: center center;
@@ -1464,7 +1461,7 @@ body {
 	margin-bottom: -5px;
 }
 .addService input[type='checkbox']:checked+label:before {
-	background-image: url(../img/input-checked.png);
+	background-image: url(img/input-checked.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -1538,7 +1535,7 @@ footer .wrapper {
 	display: inline-block;
 	width: 25px;
 	height: 25px;
-	background-image: url(../img/foot-phone.png);
+	background-image: url(img/foot-phone.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1550,7 +1547,7 @@ footer .wrapper {
 	display: inline-block;
 	width: 25px;
 	height: 25px;
-	background-image: url(../img/foot-adress.png);
+	background-image: url(img/foot-adress.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1563,7 +1560,7 @@ footer .wrapper {
 	display: inline-block;
 	width: 25px;
 	height: 25px;
-	background-image: url(../img/foot-mail.png);
+	background-image: url(img/foot-mail.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1576,7 +1573,7 @@ footer .wrapper {
 	display: inline-block;
 	width: 25px;
 	height: 25px;
-	background-image: url(../img/foot-time.png);
+	background-image: url(img/foot-time.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1652,19 +1649,19 @@ footer .wrapper {
 	margin-left: 5px;
 }
 .social-links a:nth-child(1) {
-	background-image: url(../img/foot-y.png);
+	background-image: url(img/foot-y.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .social-links a:nth-child(2) {
-	background-image: url(../img/foot-b.png);
+	background-image: url(img/foot-b.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .social-links a:nth-child(3) {
-	background-image: url(../img/foot-f.png);
+	background-image: url(img/foot-f.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1740,7 +1737,7 @@ footer .row {
 	margin-bottom: -5px;
 }
 .modal-body input[type="checkbox"]:checked+label:before {
-	background-image: url(../img/input-checked.png);
+	background-image: url(img/input-checked.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -2479,7 +2476,7 @@ footer .row {
 		top: -39px;
 		left: 0;
 		background-color: #f3f3f3;
-		background-image: url(../img/close-button.png);
+		background-image: url(img/close-button.png);
 		background-repeat: no-repeat;
 		background-size: 40%;
 		background-position: center;
@@ -2591,7 +2588,7 @@ footer .row {
 		margin-bottom: -5px;
 	}
 	.modal-body input[type="checkbox"]:checked+label:before {
-		background-image: url(../img/input-checked.png);
+		background-image: url(img/input-checked.png);
     	background-position: center;
     	background-repeat: no-repeat;
     	background-size:cover;
@@ -2624,27 +2621,27 @@ footer .row {
 		text-decoration: none;
 	}
 	
-	#modal-thankyou .modal-dialog{
+	.modal-massage .modal-dialog{
 		height: 350px;
 		background-color: #f3f3f3;
 	}
-	#modal-thankyou .modal-header {
+	.modal-massage .modal-header {
 		height: 350px;
 		background-color: #f3f3f3;
 		box-shadow: none;
 		border:none;
 		padding: 15px 30px;
 	}
-	#modal-thankyou .modal-header .close {
+	.modal-massage .modal-header .close {
 		margin-right: -10px;
 	}
-	#modal-thankyou h1{
+	.modal-massage h1{
 		margin-top: 115px;
 		font-size: 26px;
 		text-transform: uppercase;
 		margin-bottom: 30px;
 	}
-	#modal-thankyou p {
+	.modal-massage p {
 		font-size: 20px;
 	}
 	.daily {
@@ -3134,7 +3131,7 @@ option[default] {
 	margin-bottom: -5px;
 }
 .paymentType input[type="radio"]:checked+label:before {
-	background-image: url(../img/radio-checked.png);
+	background-image: url(img/radio-checked.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -3144,7 +3141,7 @@ option[default] {
 	display: none;
 }
 #politic2:checked+label:before {
-	background-image: url(../img/input-checked.png);
+	background-image: url(img/input-checked.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -3298,7 +3295,7 @@ option[default] {
 	width: 400px;
 	height: 200px;
 	margin: 0 auto;
-	background-image: url(../img/bcg-img.png);
+	background-image: url(img/bcg-img.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -3510,7 +3507,7 @@ option[default] {
 	position: absolute;
 	top:calc(50% - 6px);
 	left: 0;
-	background-image: url(../img/right-angle-grey.png);
+	background-image: url(img/right-angle-grey.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:center center;
@@ -3551,7 +3548,7 @@ option[default] {
 	margin-right: 25px;
 }
 .type-block input[type="checkbox"]:checked+label:before {
-	background-image: url(../img/input-checked.png);
+	background-image: url(img/input-checked.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size:80%;
@@ -3711,7 +3708,7 @@ option[default] {
 .mid-img-part {
 	width: 100%;
 	height: 85%;
-	background-image: url(../img/busket-bcg.png);
+	background-image: url(img/busket-bcg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -3764,12 +3761,149 @@ option[default] {
 	line-height: 21px;
 }
 .bottom-pagination ul li:first-child a{
-	background-image: url(../img/pagin-left.png);
+	background-image: url(img/pagin-left.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .bottom-pagination ul li:last-child a{
-	background-image: url(../img/pagin-right.png);
+	background-image: url(img/pagin-right.png);
 	background-position: center center;
 	background-repeat: no-repeat;
+}
+
+/* ====== АКЦИИ ====== */
+
+.action-box {
+	padding: 60px 60px 100px 60px;
+}
+.action-box>.nav-string {
+    display: block;
+    width: 250px;
+    height: 40px;
+    color: #808080;
+    border-bottom: none;
+}
+.action-box>.nav-string a:nth-child(2) {
+	color: #e58891;
+}
+.action-box>.nav-string a:hover {
+	color: #e58891;
+}
+.action-box h1 {
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.action-wrap {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.wrap-block {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.wrap-block:nth-child(1) {
+	margin-right: 20px;
+}
+.action-block {
+	position: relative;
+	margin-right: 20px;
+	width: 50%;
+}
+.action-block:last-child {
+	margin-right: 0px;
+}
+.img-action {
+	width: 100%;
+	height: 12vw;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	cursor: pointer;
+}
+.action-block:nth-child(1) .img-action:hover, .action-block:nth-child(2) .img-action:hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50vw;
+	height: 25vw;
+	z-index: 3;
+}
+.action-block:nth-child(3) .img-action:hover, .action-block:nth-child(4) .img-action:hover {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50vw;
+	height: 25vw;
+	z-index: 3;
+}
+.action-block p {
+	margin-bottom: 0;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	padding: 20px;
+}
+.banner1{
+	background-image: url(img/bcg-action-1.png);
+}
+.banner2{
+	background-image: url(img/bcg-action-2.png);
+}
+.banner3{
+	background-image: url(img/bcg-action-3.png);
+}
+.banner4{
+	background-image: url(img/bcg-action-4.png);
+}
+.col-lg-3, .col-md-3, .col-sm-6 .col-xs-12 {
+	padding: 0;
+}
+
+@media all and (max-width: 1366px) {
+	.action-block p {
+		font-size: 16px;
+		padding: 20px 10px;
+	}
+}
+@media all and (max-width: 1024px) {
+	.action-wrap {
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-bottom:40px;
+	}
+	.wrap-block {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+	.img-action {
+		height: 25vw;
+	}
+}
+@media all and (max-width: 640px) {
+	.action-box {
+		padding: 60px 20px 100px 20px;
+	}
+}
+@media all and (max-width: 500px) {
+	.wrap-block {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.action-block {
+		position: relative;
+		margin-right: 0px;
+		width: 100%;
+	}
+	.img-action {
+		height: 50vw;
+	}
 }
