@@ -1,11 +1,13 @@
 *{
 	padding: 0;
 	margin: 0;
+	outline: none; !important
 }
 body {
 	font-family: PFD-Regular, sans-serif;
 	overflow-x: hidden;
 	color: #333333;
+	padding-right: 0; !important
 }
 
 
@@ -1784,6 +1786,11 @@ footer .row {
 }
 .modal-message .modal-header .close {
 	margin-right: -10px;
+	
+}
+.modal-message .modal-header .close:hover, 
+.modal-message .modal-header .close:focus {
+	outline: none;
 }
 .modal-message h1{
 	margin-top: 115px;

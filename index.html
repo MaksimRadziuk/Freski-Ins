@@ -20,7 +20,7 @@
 
 </head>
 <body>
-	<div id="modal-call" class="modal fade">
+	<div id="modal-call" class="modal fade" tabindex="-1">
 	  <div class="modal-dialog">
 	    <div class="modal-content">
 	      <div class="modal-header">
@@ -34,12 +34,12 @@
 	        <label for="politic">Принимаю <a href="#">Пользовательское отношение</a> и <a href="#">Политику конфиденциальности</a></label>
 	      </div>
 	      <div class="modal-footer">
-	        <button data-dismiss="modal">Заказать звонок</button>
+	        <button data-dismiss="modal" id="req-call">Заказать звонок</button>
 	      </div>
 	    </div>
 	  </div>
 	</div>
-	<div id="modal-thankyou" class="modal-message modal fade">
+	<div id="modal-thankyou" class="modal fade modal-message" tabindex="-1">
 	  <div class="modal-dialog">
 	    <div class="modal-content">
 	      <div class="modal-header">
