@@ -393,6 +393,7 @@ body {
 	display: inline;
 	color:#333;
 	font-size: 18px;
+	cursor: pointer;
 }
 .measurements:before {
 	content: '';
@@ -3706,6 +3707,7 @@ option[default] {
 .mid-item-block {
 	width: 260px;
 	height: 310px;
+	margin-bottom: 30px;
 }
 .mid-item-block:last-child {
 	margin-right: 0;
