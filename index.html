@@ -14,7 +14,8 @@
 	<link href="css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" />
 	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
 	<link rel="stylesheet" href="fonts/style-fonts.css" type="text/css">
-   <!--  <link href="css/style.css" type="text/css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css">
     <link href="template_styles.css" type="text/css" rel="stylesheet" />
     
 
@@ -297,34 +298,34 @@
 					<div class="colorpick-content-block">
 						<form action="">
 							<div class="colorpick-block">
-								<input type="radio" name="color" id="colorpick1">
-								<label for="colorpick1" class="colorpick1"></label></input>
-								<input type="radio" name="color" id="colorpick2">
-								<label for="colorpick2" class="colorpick2"></label></input>
-								<input type="radio" name="color" id="colorpick3">
-								<label for="colorpick3" class="colorpick3"></label></input>
-								<input type="radio" name="color" id="colorpick4">
-								<label for="colorpick4" class="colorpick4"></label></input>
+								<input type="radio" name="color" id="colorpick1"/>
+								<label for="colorpick1" class="colorpick1"></label>
+								<input type="radio" name="color" id="colorpick2"/>
+								<label for="colorpick2" class="colorpick2"></label>
+								<input type="radio" name="color" id="colorpick3"/>
+								<label for="colorpick3" class="colorpick3"></label>
+								<input type="radio" name="color" id="colorpick4"/>
+								<label for="colorpick4" class="colorpick4"></label>
 							</div>
 							<div class="colorpick-block">
-								<input type="radio" name="color" id="colorpick5">
-								<label for="colorpick5" class="colorpick5"></label></input>
-								<input type="radio" name="color" id="colorpick6">
-								<label for="colorpick6" class="colorpick6"></label></input>
-								<input type="radio" name="color" id="colorpick7">
-								<label for="colorpick7" class="colorpick7"></label></input>
-								<input type="radio" name="color" id="colorpick8">
-								<label for="colorpick8" class="colorpick8"></label></input>
+								<input type="radio" name="color" id="colorpick5"/>
+								<label for="colorpick5" class="colorpick5"></label>
+								<input type="radio" name="color" id="colorpick6"/>
+								<label for="colorpick6" class="colorpick6"></label>
+								<input type="radio" name="color" id="colorpick7"/>
+								<label for="colorpick7" class="colorpick7"></label>
+								<input type="radio" name="color" id="colorpick8"/>
+								<label for="colorpick8" class="colorpick8"></label>
 							</div>
 							<div class="colorpick-block">
-								<input type="radio" name="color" id="colorpick9">
-								<label for="colorpick9" class="colorpick9"></label></input>
-								<input type="radio" name="color" id="colorpick10">
-								<label for="colorpick10" class="colorpick10"></label></input>
-								<input type="radio" name="color" id="colorpick11">
-								<label for="colorpick11" class="colorpick11"></label></input>
-								<input type="radio" name="color" id="colorpick12">
-								<label for="colorpick12" class="colorpick12"></label></input>
+								<input type="radio" name="color" id="colorpick9"/>
+								<label for="colorpick9" class="colorpick9"></label>
+								<input type="radio" name="color" id="colorpick10"/>
+								<label for="colorpick10" class="colorpick10"></label>
+								<input type="radio" name="color" id="colorpick11"/>
+								<label for="colorpick11" class="colorpick11"></label>
+								<input type="radio" name="color" id="colorpick12"/>
+								<label for="colorpick12" class="colorpick12"></label>
 							</div>
 						</form>
 					</div>
@@ -426,7 +427,7 @@
 					<div class="bottom-pagination">
 						<ul>
 							<li><a href="#"></a></li>
-							<li><a href="#">1</a></li>
+							<li><a href="#" class="active">1</a></li>
 							<li><a href="#">2</a></li>
 							<li><a href="#">3</a></li>
 							<li><a href="#">4</a></li>
@@ -517,6 +518,172 @@
 				<a href="#" class="filter" id="seeMore">Показать ещё</a>
 			</div>
 		</div>
+<!-- КАРТОЧКА ТОВАРА -->
+		<div class="container-fluid card-box">
+			<h1>Название фрески</h1>
+			<div class="card-block">
+				<div class="card-block-img">
+					<div class="img-part"></div>
+					<a href="#" class="viewall">Посмотреть в интерьере</a>
+					<div class="overlay-icons">
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+					</div>
+				</div>
+				<div class="card-block-description">
+					<h2>выберите необходимый размер</h2>
+					<div class="description-part">
+						<div class="param">
+							<div class="param-line">
+								<div class="param-head">Ширина, см:</div>
+								<div class="param-input">
+									<input type="text">
+								</div>
+							</div>
+							<div class="param-line">
+								<div class="param-head">Высота, см:</div>
+								<div class="param-input">
+									<input type="text">
+								</div>
+							</div>
+						</div>
+						<div class="param">
+							<input type="checkbox" id="saveProp">
+								<label for="saveProp">Сохранить пропорции <span>i</span></label>
+							<p class="square">Площадь: <span>1 м<sup>2</sup></span></p>
+						</div>
+						<div class="param"></div>
+					</div>
+					<h2>Объект</h2>
+					<div class="description-part">
+						<div class="param">
+							<div class="param-line">
+								<div class="param-head">Тип:</div>
+								<div class="left-select-box">
+									<div class="select-cover"><i class="fa fa-angle-down"></i></div>
+									<select name="" id="">
+										<option value="" disabled selected default>Фреска</option>
+										<option value="">Обои</option>
+										<option value="">Картина</option>
+									</select>
+								</div>
+							</div>
+							<div class="param-line">
+								<div class="param-head">Фактура:</div>
+								<div class="left-select-box">
+									<div class="select-cover"><i class="fa fa-angle-down"></i></div>
+									<select name="" id="">
+										<option value="" disabled selected default>Интерьерная</option>
+										<option value="">Фасадная</option>
+										<option value="">Миниатюра</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="param">
+							<div class="param-image"></div>
+							<div class="param-image-text">
+								<p class="param-image-name"></p>
+								<p class="param-image-price"><span>3 280 руб.</span> за м<sup>2</sup></p>
+							</div>							
+						</div>
+						<a href="#" class="filter" id="chooseMaterial">Выберите материал</a>
+					</div>
+					<h2>эффекты</h2>
+					<div class="description-part radio-box">
+						<input type="radio" id="radio1" name="effects" checked>
+							<label for="radio1">Исходное изображение</label>
+						<input type="radio" id="radio2" name="effects">
+							<label for="radio2">Черно-белое</label>
+						<input type="radio" id="radio3" name="effects">
+							<label for="radio3">Сепия</label>
+						<input type="radio" id="radio4" name="effects">
+							<label for="radio4">Отразить</label>
+						<input type="radio" id="radio5" name="effects">
+							<label for="radio5">Рваный край</label>
+					</div>
+					<h2>дополнительно</h2>
+					<div class="description-part">
+						<div class="addService">
+							<input type="checkbox" id="service1" > 
+								<label for="service1" class="service1"><p>Монтаж сотрудниками <span class="itemNum">2700 <span class="rub">руб.</span></span></p></label>
+
+							<input type="checkbox" id="service2" > 
+								<label for="service2"><p>Клей <span class="itemNum">800 <span class="rub">руб.</span></span></p></label>
+						</div>
+					</div>
+					<div class="description-part thinLine">
+						<div class="preCost">
+							<h2 >предварительная стоимость:</h2>
+							<p> 1 500 <span>руб.</span></p>
+						</div>
+						<a href="#" class="submit-order">Оформить заказ</a>
+					</div>
+				</div>
+			</div>
+			<div class="card-carusel-box">
+				<h1>популярные фрески данной категории</h1>
+				<div class="carusel-block">
+					<div class="mid-item-block">
+						<div class="mid-img-part"></div>
+						<div class="mid-text-part">
+							<p class="name">XA-0001 st</p>
+							<p class="pos">Частный дом</p>
+						</div>
+					</div>
+					<div class="mid-item-block">
+						<div class="mid-img-part"></div>
+						<div class="mid-text-part">
+							<p class="name">XA-0001 st</p>
+							<p class="pos">Частный дом</p>
+						</div>
+					</div>
+					<div class="mid-item-block">
+						<div class="mid-img-part"></div>
+						<div class="mid-text-part">
+							<p class="name">XA-0001 st</p>
+							<p class="pos">Частный дом</p>
+						</div>
+					</div>
+					<div class="mid-item-block">
+						<div class="mid-img-part"></div>
+						<div class="mid-text-part">
+							<p class="name">XA-0001 st</p>
+							<p class="pos">Частный дом</p>
+						</div>
+					</div>
+					<div class="mid-item-block">
+						<div class="mid-img-part"></div>
+						<div class="mid-text-part">
+							<p class="name">XA-0001 st</p>
+							<p class="pos">Частный дом</p>
+						</div>
+					</div>
+					<div class="mid-item-block">
+						<div class="mid-img-part"></div>
+						<div class="mid-text-part">
+							<p class="name">XA-0001 st</p>
+							<p class="pos">Частный дом</p>
+						</div>
+					</div>
+					<div class="mid-item-block">
+						<div class="mid-img-part"></div>
+						<div class="mid-text-part">
+							<p class="name">XA-0001 st</p>
+							<p class="pos">Частный дом</p>
+						</div>
+					</div>
+					<div class="mid-item-block">
+						<div class="mid-img-part"></div>
+						<div class="mid-text-part">
+							<p class="name">XA-0001 st</p>
+							<p class="pos">Частный дом</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 <!-- АКЦИИ -->
 		<div class="caontainer-fluid action-box">
 			<div class="nav-string">
@@ -547,7 +714,6 @@
 				</div>
 			</div>
 		</div>
-
 <!-- ДОСТАВКА И ОПЛАТА -->
 		<div class="container-fluid del-pay">
 			<h1>доставка и оплата</h1>
@@ -730,11 +896,11 @@
 				<div class="add-box">
 					<a href="#">Продолжить покупки</a>
 					<div class="addService">
-						<input type="checkbox" id="service1" > 
-								<label for="service1" class="service1"><p>Монтаж сотрудниками <span class="itemNum">2700 <span class="rub">руб.</span></span></p></label>
+						<input type="checkbox" id="serviceOne" /> 
+								<label for="service1" class="serviceOne"><p>Монтаж сотрудниками <span class="itemNum">2700 <span class="rub">руб.</span></span></p></label>
 
-						<input type="checkbox" id="service2" > 
-								<label for="service2"><p>Клей <span class="itemNum">800 <span class="rub">руб.</span></span></p></label>
+						<input type="checkbox" id="serviceTwo" > 
+								<label for="serviceTwo"><p>Клей <span class="itemNum">800 <span class="rub">руб.</span></span></p></label>
 					</div>
 				</div>
 				<div class="sum-box">
@@ -773,9 +939,9 @@
 						<textarea placeholder="Комментарий к адресу"></textarea>
 						<div class="paymentType">
 							<p>Оплата: </p>
-							<input type="radio" id="cash1" name="paymenttype"><label for="cash1">Наличными</label></input>
-							<input type="radio" id="beznal" name="paymenttype"><label for="beznal">Безналичный расчет</label></input>
-							<input type="radio" id="cod" name="paymenttype"><label for="cod">Наложеным платежом</label></input>
+							<input type="radio" id="cash1" name="paymenttype"/><label for="cash1">Наличными</label>
+							<input type="radio" id="beznal" name="paymenttype"/><label for="beznal">Безналичный расчет</label>
+							<input type="radio" id="cod" name="paymenttype"/><label for="cod">Наложеным платежом</label>
 						</div>
 						<input type="checkbox" id="politic2" > 
 			        		<label for="politic2" class="politic2">Принимаю <a href="#">Пользовательское отношение</a> и <a href="#">Политику конфиденциальности</a></label>
@@ -877,9 +1043,12 @@
 
 
 	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="slick/slick.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/main.js"></script>
+	
+
 
 </body>
 </html>
