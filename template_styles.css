@@ -4168,7 +4168,28 @@ option[default] {
 	top: 2px;
 	pointer-events: none;
 }
-
+.param.invisible {
+	width: 22%;
+	min-width: 110px;
+}
+.small-img {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.param-image {
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+	background-image:url(img/busket-bcg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	margin-right: 20px;
+}
+.param-image-text {
+	display: inline-block;
+}
 .param>#saveProp {
 	display: none;
 }
@@ -4321,17 +4342,10 @@ option[default] {
 		width: 900px;
 	}
 }
-@media all and (max-width:1080px) {
+
+@media all and (max-width:1190px) {
 	.card-block-description {
 		padding-left: 20px;
-	}
-}
-@media all and (max-width:1024px) {
-	.carusel-block .mid-item-block {
-		height: 230px;
-	}
-	.carusel-block {
-		width: 600px;
 	}
 	.description-part {
 		flex-direction: column;
@@ -4352,6 +4366,19 @@ option[default] {
 	.preCost {
 		margin-bottom: 20px;
 	}
+	.mb-none {
+		margin-bottom: 0;
+	}
+}
+@media all and (max-width:1024px) {
+	.carusel-block .mid-item-block {
+		height: 230px;
+	}
+	.carusel-block {
+		width: 600px;
+	}
+	
+	
 }
 @media all and (max-width:730px) {
 	.carusel-block .mid-item-block {
