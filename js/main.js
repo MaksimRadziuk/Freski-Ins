@@ -180,3 +180,29 @@ $('.carusel-block').slick({
     }
   ]
 });
+
+
+//открытие ответа в ФАК 
+var sl = document.getElementsByClassName("toggle-point");
+var i;
+
+for (i = 0; i < sl.length; i++) {
+    sl[i].onclick = function() {
+        this.classList.toggle("toggle-point");
+        this.classList.toggle("color");
+        this.nextElementSibling.classList.toggle("show");
+        this.getElementsByTagName('span')[0].classList.toggle("colorSpan");
+    }
+}
+
+var sl = document.getElementsByClassName("toggle1-point");
+var i;
+
+for (i = 0; i < sl.length; i++) {
+    sl[i].onclick = function() {
+        this.classList.toggle("toggle1-point");
+        this.classList.toggle("mobile-color");
+        this.nextElementSibling.classList.toggle("show");
+        this.getElementsByTagName('span')[0].classList.toggle("colorSpan");
+    }
+}
