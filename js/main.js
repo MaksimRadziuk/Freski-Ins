@@ -218,3 +218,33 @@ for (i = 0; i < sl.length; i++) {
         this.getElementsByTagName('span')[0].classList.toggle("colorSpan");
     }
 }
+
+// вызов слайдера/попап Наши Работы
+$(document).ready(function(){
+  $(".modal-slider").click(function() {
+    $("#modal-slider").modal('show');
+    $('.our-work').slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slide: '.slider-img',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        touchMove: false,
+        adaptiveHeight: true
+        });
+    $('#modal-slider').hide()
+  });
+});
+
+
+function modalWindow(){
+    var modal = document.getElementsByClassName('modal'); //Находим модальное окно
+    if (modal[0].style.display == 'block'){
+        modal[0].style.display = 'none';
+    }else{
+        modal[0].style.display = 'block';
+      $(window).resize()
+    }
+}
+

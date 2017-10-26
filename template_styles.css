@@ -3353,6 +3353,125 @@ option[default] {
 	}
 }
 
+/* ====== СЛАЙДЕР НАШИ РАБОТЫ ====== */
+#modal-slider .modal-dialog {
+	margin: 100px auto;
+	width: 1280px;
+}
+#modal-slider .modal-body {
+	padding: 0;
+	background-color: #fff;
+	background-image:url(img/about2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#modal-slider .modal-header {
+	height: 0;
+	background-color: transparent;
+	padding: 0;
+	margin: 0;
+	border:none;
+}
+#modal-slider .modal-header .close {
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background-color: #fff;
+	background-size:50%;
+	z-index: 9999;
+	top: 20px;
+	right: 20px;
+	margin-right: 0;
+
+}
+#modal-slider .modal-header .album-sum {
+	top: 30px;
+	left: 90px;
+	color: #ccc;
+	font-size: 24px;
+	position: absolute;
+	z-index: 999;
+}
+#modal-slider .modal-footer {
+	height: 0;
+	padding: 0;
+	background-color: transparent;
+}
+.our-work {
+	width: 100%;
+	height: 650px;	
+}
+#modal-slider .slick-list {
+	height: 650px;!important
+}
+#modal-slider .slick-track {
+	height: 650px;!important
+}
+
+.slider-img {
+	width: 100%;
+	height: 100%;
+	background-image: url(img/about2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+	position: relative;
+}
+.header-number {
+	position: absolute;
+	font-size: 24px;
+	color: #fff;
+	top: 30px;
+	left: 75px;
+	z-index: 999;
+}
+.footer-name {
+	position: absolute;
+	bottom: 80px;
+	left: 30px;
+	font-size: 24px;
+	color:#fff;
+	z-index: 999;
+	width: 100%;
+}
+.footer-room {
+	position: absolute;
+	bottom: 40px;
+	left: 30px;
+	font-size: 24px;
+	color:#fff;
+	width: 100%;
+	z-index: 999;
+}
+#modal-slider .slick-next {
+	right: 0;
+	background-color: rgba(250,250,250,.3);
+	opacity: .7;
+}
+#modal-slider .slick-prev {
+	left: 0;
+	background-color: rgba(250,250,250,.1);
+	opacity: .7;
+	z-index: 999;
+}
+
+@media all and (max-width: 1660px) {
+	#modal-slider .modal-dialog {
+		width: 1110px;
+	}
+	.our-work {
+		height: 550px;
+	}
+	#modal-slider .slick-list {
+		height: 550px;
+	}
+	#modal-slider .slick-track {
+		height: 550px;
+	}
+}
+
 /* ======= ВЫПАДАЮЩИЕ МЕНЮ ======= */
 
 .navigation ul li a:hover {
@@ -4547,6 +4666,7 @@ option[default] {
 	text-decoration: none;
 	text-transform: uppercase;
 	color:#333;
+	border-bottom: 3px solid rgba(255,255,255,0);
 }
 .nav-tabs>li.active>a, 
 .nav-tabs>li.active>a:focus, 
@@ -4808,6 +4928,7 @@ td>span {
 	}
 }
 @media all and (max-width: 640px) {
+
 	td>span {
 		display: inline;
 		top: 0;
@@ -4845,5 +4966,93 @@ td>span {
 @media all and (max-width: 500px) {
 	.table-box {
 		padding: 50px 20px;
+	}
+}
+
+/* ===== УСЛУГИ ===== */
+.service-box {
+	padding: 70px 60px 50px 60px;
+}
+.service-box h1 {
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.service-box .nav {
+	border-top: none;
+}
+.service-box .tab-content p {
+	padding-top: 30px;
+	font-size: 18px;
+}
+.service-img-block {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 30px;
+}
+.service-img {
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-size:cover;
+	width: 40%;
+	height: 20vw;
+}
+.img-1 {
+	background-image: url(img/bcg-action-1.png);
+}
+.img-2 {
+	background-image: url(img/bcg-action-2.png);
+}
+.img-3 {
+	background-image: url(img/bcg-action-3.png);
+}
+.img-4 {
+	background-image: url(img/bcg-action-4.png);
+}
+#panel4 ol {
+	padding-left: 30px;
+	font-size: 20px;
+}
+#panel5 ul {
+	padding-left: 30px;
+	font-size: 20px;
+}
+#panel4 ol>li, #panel5 ul>li {
+	padding-top: 50px;
+}
+@media all and (max-width: 768px) {
+	.service-img-block {
+		justify-content: space-between;
+	}
+	.service-img {
+		width:48%;
+		height: 24vw;
+	}
+}
+@media all and (max-width: 640px) {
+	.service-box {
+		padding: 70px 20px 50px 20px;
+	}
+	.service-box .nav {
+		display: block;
+	}
+	.service-box .tab-content {
+		display: block;
+	}
+}
+@media all and (max-width: 600px) {
+	.service-img-block {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.service-img {
+		width:calc(100% + 30px);
+		height: 47vw;
+		margin-left: -30px;
+	}
+	.service-img:first-child {
+		margin-bottom: 20px;
 	}
 }
