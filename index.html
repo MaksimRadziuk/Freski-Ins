@@ -464,6 +464,122 @@
 				</div>
 			</div>
 			<div class="mobile-catalog">
+				<div class="filter-menu">
+					<div class="close-filter-menu"></div>
+					<div class="sidebar-block style-box">
+						<h3>стиль<i class="fa fa-angle-down" aria-hidden="true" id="toggleView1"></i></h3>
+						<div class="content-block catalog-style">
+							<a href="#" class="style-block">
+								Архитектура
+								<p>(316)</p>
+							</a>
+							<a href="#" class="style-block">
+								Восток
+								<p>(240)</p>
+							</a>
+							<a href="#" class="style-block">
+								Городской пейзаж
+								<p>(215)</p>
+							</a>
+							<a href="#" class="style-block">
+								Графика
+								<p>(340)</p>
+							</a>
+							<a href="#" class="style-block">
+								Детские
+								<p>(190)</p>
+							</a>
+							<a href="#" class="style-block">
+								Животный мир
+								<p>(222)</p>
+							</a>
+							<a href="#" class="style-block">
+								Космос
+								<p>(329)</p>
+							</a>
+						</div>
+					</div>
+					<div class="sidebar-block type-box">
+						<h3>тип помещения<i class="fa fa-angle-down" aria-hidden="true" id="toggleView"></i></h3>
+						<div class="content-block catalog-type">
+							<form action="">
+								<div class="type-block">
+									<input type="checkbox" id="mobile-check1">
+									<label for="mobile-check1">В гостинную</label>
+									<p>(48)</p>
+								</div>
+								<div class="type-block">
+									<input type="checkbox" id="mobile-check2">
+									<label for="mobile-check2">В спальню</label>
+									<p>(105)</p>
+								</div>
+								<div class="type-block">
+									<input type="checkbox" id="mobile-check3">
+									<label for="mobile-check3">Для кухни</label>
+									<p>(130)</p>
+								</div>
+								<div class="type-block">
+									<input type="checkbox" id="mobile-check4">
+									<label for="mobile-check4">На потолок</label>
+									<p>(59)</p>
+								</div>
+								<div class="type-block">
+									<input type="checkbox" id="mobile-check5">
+									<label for="mobile-check5">В офис</label>
+									<p>(99)</p>
+								</div>
+								<div class="type-block">
+									<input type="checkbox" id="mobile-check6">
+									<label for="mobile-check6">В ванную</label>
+									<p>(100)</p>
+								</div>
+								<div class="type-block">
+									<input type="checkbox" id="mobile-check7">
+									<label for="mobile-check7">На дверь</label>
+									<p>(320)</p>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="sidebar-block colorpick-box">
+						<h3>цвет<i class="fa fa-angle-down" aria-hidden="true" id="toggleView2"></i></h3>
+						<div class="colorpick-content-block">
+							<form action="">
+								<div class="colorpick-block">
+									<input type="radio" name="color" id="mobile-colorpick1"/>
+									<label for="mobile-colorpick1" class="colorpick1"></label>
+									<input type="radio" name="color" id="mobile-colorpick2"/>
+									<label for="mobile-colorpick2" class="colorpick2"></label>
+									<input type="radio" name="color" id="mobile-colorpick3"/>
+									<label for="mobile-colorpick3" class="colorpick3"></label>
+									<input type="radio" name="color" id="mobile-colorpick4"/>
+									<label for="mobile-colorpick4" class="colorpick4"></label>
+								</div>
+								<div class="colorpick-block">
+									<input type="radio" name="color" id="mobile-colorpick5"/>
+									<label for="mobile-colorpick5" class="colorpick5"></label>
+									<input type="radio" name="color" id="mobile-colorpick6"/>
+									<label for="mobile-colorpick6" class="colorpick6"></label>
+									<input type="radio" name="color" id="mobile-colorpick7"/>
+									<label for="mobile-colorpick7" class="colorpick7"></label>
+									<input type="radio" name="color" id="mobile-colorpick8"/>
+									<label for="mobile-colorpick8" class="colorpick8"></label>
+								</div>
+								<div class="colorpick-block">
+									<input type="radio" name="color" id="mobile-colorpick9"/>
+									<label for="mobile-colorpick9" class="colorpick9"></label>
+									<input type="radio" name="color" id="mobile-colorpick10"/>
+									<label for="mobile-colorpick10" class="colorpick10"></label>
+									<input type="radio" name="color" id="mobile-colorpick11"/>
+									<label for="mobile-colorpick11" class="colorpick11"></label>
+									<input type="radio" name="color" id="mobile-colorpick12"/>
+									<label for="mobile-colorpick12" class="colorpick12"></label>
+								</div>
+							</form>
+						</div>
+					</div>
+					<a href="#" class="submit-order" id="apply">Применить</a>
+				</div>
 				<div class="top-part">
 					<a href="#" class="filter" id="filter">Фильтр</a>
 					<div class="mobile-sort">
@@ -1395,6 +1511,101 @@
 <!-- ТАБЛИЦА -->
 		<div class="container-fluid table-box">
 			<h1>таблица</h1>
+			<table class="desktop-table">
+				<thead>
+					<tr>
+						<th>№</th>
+						<th>Наименование продукции</th>
+						<th>Макс. размер (м)</th>
+						<th>Цена (руб.)</th>
+						<th>Срок изготовления</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Фактура Remini<span class="new-item">новинка</span></td>
+						<td rowspan="6">3,20 x 20,00</td>
+						<td class="table-price">5 700</td>
+						<td rowspan="6">До 5 дней</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Фактура Remini<span class="sales-hit">хит продаж</span></td>
+						<td class="table-price">5 200</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Фактура Remini<span class="new-size">новые размеры</span></td>	
+						<td class="table-price"> 1900</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>Фактура Remini</td>
+						<td class="table-price">19 000</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>Фактура Remini</td>
+						<td class="table-price">11 000</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>Фактура Remini</td>
+						<td class="table-price">8 000</td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="mobile-table">
+				<thead>
+					<tr>
+						<th>№ 1</th>
+						<th colspan="2">Наименование продукции</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td colspan="3">Фактура Remini<span class="new-item">новинка</span></td>
+					</tr>
+					<tr>
+						<td colspan="2">Макс. размер (м)</td>
+						<td>3,20 х 20,00</td>
+					</tr>
+					<tr>
+						<td colspan="2">Цена руб.</td>
+						<td>1 900</td>
+					</tr>
+					<tr>
+						<td colspan="2">Срок изготовления</td>
+						<td>До 5 дней</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>№ 2</th>
+						<th colspan="2">Наименование продукции</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td colspan="3">Фактура Remini<span class="sales-hit">хит продаж</span></td>
+					</tr>
+					<tr>
+						<td colspan="2">Макс. размер (м)</td>
+						<td>3,20 х 20,00</td>
+					</tr>
+					<tr>
+						<td colspan="2">Цена руб.</td>
+						<td>2 700</td>
+					</tr>
+					<tr>
+						<td colspan="2">Срок изготовления</td>
+						<td>До 5 дней</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</section>
 	

@@ -102,11 +102,23 @@ $(document).ready(function(){
     $(".hidden-menu").addClass('show');
   });
 });
+//меню фильтра
+$(document).ready(function(){
+  $("#filter").click(function() {
+    $(".filter-menu").addClass('show');
+  });
+});
 
 // закрытие меню навигации (мобилки)
 $(document).ready(function(){
   $(".close-hidden-menu").click(function() {
     $(".hidden-menu").removeClass('show');
+  });
+});
+//закрытие меню фильтра
+$(document).ready(function(){
+  $(".close-filter-menu").click(function() {
+    $(".filter-menu").removeClass('show');
   });
 });
 
