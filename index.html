@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="fonts/style-fonts.css" type="text/css">
     <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
     <link href="template_styles.css" type="text/css" rel="stylesheet" />
     
 
@@ -35,69 +36,17 @@
 	        <label for="politic">Принимаю <a href="#">Пользовательское отношение</a> и <a href="#">Политику конфиденциальности</a></label>
 	      </div>
 	      <div class="modal-footer">
-	        <button data-dismiss="modal" id="req-call">Заказать звонок</button>
+	        <button  data-dismiss="modal" id="req-call">Заказать звонок</button>
 	      </div>
 	    </div>
 	  </div>
 	</div>
-	<div id="modal-thankyou" class="modal fade modal-message" tabindex="-1">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-
-	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close-button.png" alt="close"></button>
-	        <h1>спасибо!</h1>
-	        <p>Наш менеджер свяжется с вами в ближайшее время</p>
-	      	
-	      </div>
-	    </div>
-	  </div>
-	</div>
-	<div id="modal-slider" class="modal fade" tabindex="-1">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close-button.png" alt="close"></button>
-	        <p class="album-sum"> / 2000</p>
-	      </div>
-	      <div class="modal-body">
-	        <div class="our-work">
-				<div class="slider-img">
-					<p class="header-number">1</p>
-					<p class="footer-name">Название фрески</p>
-					<p class="footer-room">Тип помещения: зал</p>
-				</div>
-				<div class="slider-img">
-					<p class="header-number">2</p>
-					<p class="footer-name">Название фрески</p>
-					<p class="footer-room">Тип помещения: зал</p>
-				</div>
-				<div class="slider-img">
-					<p class="header-number">3</p>
-					<p class="footer-name">Название фрески</p>
-					<p class="footer-room">Тип помещения: зал</p>
-				</div>
-				<div class="slider-img">
-					<p class="header-number">4</p>
-					<p class="footer-name">Название фрески</p>
-					<p class="footer-room">Тип помещения: зал</p>
-				</div>
-				<div class="slider-img">
-					<p class="header-number">5</p>
-					<p class="footer-name">Название фрески</p>
-					<p class="footer-room">Тип помещения: зал</p>
-				</div>
-				<div class="slider-img">
-					<p class="header-number">6</p>
-					<p class="footer-name">Название фрески</p>
-					<p class="footer-room">Тип помещения: зал</p>
-				</div>
-			</div>
-	      </div>
-	      <div class="modal-footer">
-	      </div>
-	    </div>
-	  </div>
+	<div id="modal-thankyou">
+		<div class="thankyou-block">
+			<button class="close-thankyou"><img src="img/close-button.png" alt="close"></button>
+			<h2>спасибо!</h2>
+			<p>Наш менеджер свяжется с вами в ближайшее время</p>
+		</div>
 	</div>
 	<header>
 		<div class="container-fluid topbar">
@@ -399,7 +348,7 @@
 				</div>
 				<div class="mid-part">
 							<div class="mid-item-block">
-								<a href="#" class="modal-slider">
+								<a href="img/bcg-action-1.png" class="modal-slider" data-fancybox="hall" data-caption="Пример работы в зале">
 									<div class="mid-img-part"></div>
 									<div class="mid-text-part">
 									<p class="name">XA-0001 st</p>
@@ -408,7 +357,7 @@
 								</a>
 							</div>
 							<div class="mid-item-block">
-								<a href="#" class="modal-slider">
+								<a href="img/bcg-action-2.png" class="modal-slider" data-fancybox="hall" data-caption="Пример работы в зале">
 									<div class="mid-img-part"></div>
 									<div class="mid-text-part">
 									<p class="name">XA-0001 st</p>
@@ -417,7 +366,7 @@
 								</a>
 							</div>
 							<div class="mid-item-block">
-								<a href="#" class="modal-slider">
+								<a href="img/bcg-action-3.png" class="modal-slider" data-fancybox="hall" data-caption="Пример работы в зале">
 									<div class="mid-img-part"></div>
 									<div class="mid-text-part">
 									<p class="name">XA-0001 st</p>
@@ -426,7 +375,7 @@
 								</a>
 							</div>
 							<div class="mid-item-block">
-								<a href="#" class="modal-slider">
+								<a href="img/bcg-action-4.png" class="modal-slider" data-fancybox="hall" data-caption="Пример работы в зале">
 									<div class="mid-img-part"></div>
 									<div class="mid-text-part">
 									<p class="name">XA-0001 st</p>
@@ -435,7 +384,7 @@
 								</a>
 							</div>
 							<div class="mid-item-block">
-								<a href="#" class="modal-slider">
+								<a href="img/bcg-action-1.png" class="modal-slider" data-fancybox="livingroom" data-caption="Пример работы в жилых комнатах">
 									<div class="mid-img-part"></div>
 									<div class="mid-text-part">
 									<p class="name">XA-0001 st</p>
@@ -444,7 +393,7 @@
 								</a>
 							</div>
 							<div class="mid-item-block">
-								<a href="#" class="modal-slider">
+								<a href="img/bcg-action-2.png" class="modal-slider" data-fancybox="livingroom" data-caption="Пример работы в жилых комнатах">
 									<div class="mid-img-part"></div>
 									<div class="mid-text-part">
 										<p class="name">XA-0001 st</p>
@@ -453,7 +402,7 @@
 								</a>
 							</div>
 							<div class="mid-item-block">
-								<a href="#" class="modal-slider">
+								<a href="img/bcg-action-3.png" class="modal-slider" data-fancybox="livingroom" data-caption="Пример работы в жилых комнатах">
 									<div class="mid-img-part"></div>
 									<div class="mid-text-part">
 										<p class="name">XA-0001 st</p>
@@ -462,7 +411,7 @@
 								</a>
 							</div>
 							<div class="mid-item-block">
-								<a href="#" class="modal-slider">
+								<a href="img/bcg-action-4.png" class="modal-slider" data-fancybox="livingroom" data-caption="Пример работы в жилых комнатах">
 									<div class="mid-img-part"></div>
 									<div class="mid-text-part">
 										<p class="name">XA-0001 st</p>
@@ -471,7 +420,7 @@
 								</a>
 							</div>
 							<div class="mid-item-block">
-								<a href="#" class="modal-slider">
+								<a href="img/bcg-action-1.png" class="modal-slider" data-fancybox="kitchen" data-caption="Пример работы в кухнях">
 									<div class="mid-img-part"></div>
 									<div class="mid-text-part">
 										<p class="name">XA-0001 st</p>
@@ -480,7 +429,7 @@
 								</a>
 							</div>
 							<div class="mid-item-block">
-								<a href="#" class="modal-slider">
+								<a href="img/bcg-action-2.png" class="modal-slider" data-fancybox="kitchen" data-caption="Пример работы в кухнях">
 									<div class="mid-img-part"></div>
 									<div class="mid-text-part">
 										<p class="name">XA-0001 st</p>
@@ -507,6 +456,29 @@
 						<a href="#">60</a>
 						<a href="#">90</a>
 					</div>
+				</div>
+				<div class="addPhoto-part">
+					<h2>добавить свою фотографию</h2>
+					<p>Если вы воспользовались нашими услугами можете воспользоваться этой формой и добавить своё фото на наш сайт. Оно будет опубликовано после проверки модератором.</p>
+					<form action="">
+						<div class="form-mail-block">
+							<div class="left-select-box">
+								<div class="select-cover"><i class="fa fa-angle-down"></i></div>
+								<select name="" id="">
+									<option value="" disabled selected default>Тип помещения</option>
+									<option value="">Зал</option>
+									<option value="">Кухня</option>
+								</select>
+							</div>	
+							<input type="email" id="addPhoto-mail" placeholder="Email">
+						</div>
+						<textarea name="" id="textareaPhoto" cols="30" rows="10" placeholder="Описание"></textarea>
+						<div class="attach-block">
+							<input type="file" id="attach">
+							<label for="attach"><a href="#">Прикрепить фото</a></label>
+							<a href="#" class="submit-order">Отправить</a>
+						</div>
+					</form>
 				</div>
 			</div>
 			<div class="mobile-catalog">
@@ -655,7 +627,7 @@
 				</div>
 				<div class="mid-part">
 					<div class="mid-item-block">
-						<a href="#">
+						<a href="img/bcg-action-4.png" class="modal-slider" data-fancybox="livingroom" data-caption="Пример работы в жилых комнатах">
 							<div class="mid-img-part"></div>
 							<div class="mid-text-part">
 								<p class="name">XA-0001 st</p>
@@ -664,7 +636,7 @@
 						</a>
 					</div>
 					<div class="mid-item-block">
-						<a href="#">
+						<a href="img/bcg-action-3.png" class="modal-slider" data-fancybox="livingroom" data-caption="Пример работы в жилых комнатах">
 							<div class="mid-img-part"></div>
 							<div class="mid-text-part">
 								<p class="name">XA-0001 st</p>
@@ -673,7 +645,7 @@
 						</a>
 					</div>
 					<div class="mid-item-block">
-						<a href="#">
+						<a href="img/bcg-action-2.png" class="modal-slider" data-fancybox="livingroom" data-caption="Пример работы в жилых комнатах">
 							<div class="mid-img-part"></div>
 							<div class="mid-text-part">
 								<p class="name">XA-0001 st</p>
@@ -682,7 +654,7 @@
 						</a>
 					</div>
 					<div class="mid-item-block">
-						<a href="#">
+						<a href="img/bcg-action-1.png" class="modal-slider" data-fancybox="livingroom" data-caption="Пример работы в жилых комнатах">
 							<div class="mid-img-part"></div>
 							<div class="mid-text-part">
 								<p class="name">XA-0001 st</p>
@@ -691,7 +663,7 @@
 						</a>
 					</div>
 					<div class="mid-item-block">
-						<a href="#">
+						<a href="img/bcg-action-4.png" class="modal-slider" data-fancybox="hall" data-caption="Пример работы в зале">
 							<div class="mid-img-part"></div>
 							<div class="mid-text-part">
 								<p class="name">XA-0001 st</p>
@@ -700,7 +672,7 @@
 						</a>
 					</div>
 					<div class="mid-item-block">
-						<a href="#">
+						<a href="img/bcg-action-4.png" class="modal-slider" data-fancybox="hall" data-caption="Пример работы в зале">
 							<div class="mid-img-part"></div>
 							<div class="mid-text-part">
 								<p class="name">XA-0001 st</p>
@@ -1787,6 +1759,7 @@
 	<script src="slick/slick.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/masonry.pkgd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
 	<script src="js/main.js"></script>
 	
 

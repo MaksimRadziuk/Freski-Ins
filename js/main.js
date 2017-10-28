@@ -122,19 +122,24 @@ $(document).ready(function(){
   });
 });
 
-//выведение модального окна СПАСИБО!
-$(document).ready(function(){
-  $(".modal-footer").click(function() {
-    $("#modal-thankyou").modal('show');
-  });
-});
-
 //закрытие окна звонка при отсылке формы обратной свзи
 $(document).ready(function(){
   $("#req-call").click(function() {
     $("#modal-call").removeClass('show');
   });
 });
+
+
+$('#modal-call').on('hidden.bs.modal', function() {
+  $("#modal-thankyou").addClass('show');
+})
+
+$(document).ready(function(){
+  $(".close-thankyou").click(function() {
+    $("#modal-thankyou").removeClass('show');
+  });
+});
+
 
 
 //открытие и закрытие блоков каталога
@@ -219,32 +224,7 @@ for (i = 0; i < sl.length; i++) {
     }
 }
 
-// вызов слайдера/попап Наши Работы
-$(document).ready(function(){
-  $(".modal-slider").click(function() {
-    $("#modal-slider").modal('show');
-    $('.our-work').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        slide: '.slider-img',
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        touchMove: false,
-        adaptiveHeight: true
-        });
-    $('#modal-slider').hide()
+
+$("[data-fancybox]").fancybox({
+
   });
-});
-
-
-function modalWindow(){
-    var modal = document.getElementsByClassName('modal'); //Находим модальное окно
-    if (modal[0].style.display == 'block'){
-        modal[0].style.display = 'none';
-    }else{
-        modal[0].style.display = 'block';
-      $(window).resize()
-    }
-}
-

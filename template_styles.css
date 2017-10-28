@@ -1697,7 +1697,8 @@ footer .row {
 	background-color: #e7e7e7;
 	padding: 30px 15px; 
 }
-.modal-body input[type='text'] {
+.modal-body input[type='text'],
+.modal-body input[type='text'].name {
 	display: block;
 	width: 100%;
 	height: 30px;
@@ -1801,6 +1802,55 @@ footer .row {
 }
 .modal-message p {
 	font-size: 20px;
+}
+#modal-thankyou {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,.5);
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+}
+#modal-thankyou .thankyou-block{
+	width: 280px;
+	height: 310px;
+	text-align: center;
+	background-color: #fff;
+	padding: 0 20px;
+	transform: translateY(-50px);
+  	transition: all .33s;
+  	padding-top: 70px;
+  	margin-left: calc(50vw - 140px);
+  	margin-top: 10%;
+}
+#modal-thankyou .thankyou-block button {
+	opacity: 1;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: transparent;
+	border:none;
+}
+#modal-thankyou h2 {
+	text-transform: uppercase;
+	font-size: 26px;
+	margin-bottom: 30px;
+}
+#modal-thankyou p {
+	font-size: 18px;
+}
+.close-thankyou {
+	outline: none;
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	background-size:50%;
+	z-index: 9999;
+	top: 20px;
+	right: 20px;
 }
 /* ======== END MODAL ==========*/
 
@@ -3904,6 +3954,10 @@ option[default] {
 .mid-item-block:last-child {
 	margin-right: 0;
 }
+.mid-item-block a {
+	text-decoration:none;
+	outline: none;
+}
 .mid-img-part {
 	width: 260px;
 	height: 260px;
@@ -4482,6 +4536,7 @@ option[default] {
 	color: #e1707c;
 	display: inline-block;
 	width: 133px;
+	margin-bottom: 0;
 }
 .preCost p span {
 	font-size: 22px;
@@ -4604,7 +4659,7 @@ option[default] {
 	}
 	.card-box .description-part .preCost h2 {
 		padding-left: 0px;
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	.card-block-description {
 		padding-left: 0px;
@@ -5054,5 +5109,101 @@ td>span {
 	}
 	.service-img:first-child {
 		margin-bottom: 20px;
+	}
+}
+
+/* ====== ДОБАВИТЬ ФОТО ====== */
+.addPhoto-part h2 {
+	font-size: 26px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+.addPhoto-part p {
+	font-size: 18px;
+	max-width: 600px; 
+	margin-bottom: 30px;
+}
+.form-mail-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.form-mail-block .left-select-box {
+	width: 30%;
+	min-width: 120px;
+	color: #c6c6c6;
+}
+.form-mail-block .left-select-box select {
+	width: 100%;
+	min-width: 120px;
+}
+#addPhoto-mail {
+	width: 60%;
+	height: 30px;
+	border: 1px solid #c6c6c6;
+	padding-left: 10px;
+}
+#textareaPhoto {
+	width: 100%;
+	border: 1px solid #c6c6c6;
+	padding-left: 10px;
+	resize: none;
+	margin-bottom: 30px;
+}
+.attach-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.attach-block input {
+	display: none;
+}
+.attach-block label a {
+	color:#333;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 300;
+}
+.attach-block label a:before {
+	content: '';
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	background-image: url(img/busket-bcg.png);
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-size:cover;
+	margin-bottom: -5px;
+}
+.attach-block label a:hover {
+	text-decoration: underline;
+}
+@media all and (max-width: 820px) {
+	.attach-block label a:before {
+		display: block;
+		margin-bottom: 10px;
+	}
+}
+@media all and (max-width: 768px) {
+	.attach-block {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.attach-block label {
+		margin-bottom: 40px;
+	}
+	.form-mail-block {
+		flex-direction: column-reverse;
+		align-items: flex-start;
+	}
+	.form-mail-block .left-select-box {
+		width: 100%;
+	}
+	#addPhoto-mail {
+		width: 100%;
+		margin-bottom: 30px;
 	}
 }
