@@ -9,7 +9,10 @@ body {
 	color: #333333;
 	padding-right: 0; !important
 }
-
+a:focus {
+	text-decoration: none;
+	color:#fff;
+}
 
 /* ======== TOPBAR ==========*/
 .container-fluid {
@@ -4530,6 +4533,7 @@ option[default] {
 	margin: 0;
 	border-bottom: none;
 	width: 235px;
+	padding-top: 7px;
 }
 .preCost p {
 	font-size: 36px;
@@ -5158,9 +5162,14 @@ td>span {
 	align-items: center;
 }
 .attach-block input {
-	display: none;
+	display: block;
+	outline: none;
 }
-.attach-block label a {
+.attach-block input:hover, 
+.attach-block input:focus {
+	outline: none;
+}
+/* .attach-block label a {
 	color:#333;
 	text-decoration: none;
 	font-size: 18px;
@@ -5180,19 +5189,19 @@ td>span {
 }
 .attach-block label a:hover {
 	text-decoration: underline;
-}
-@media all and (max-width: 820px) {
+} */
+/* @media all and (max-width: 820px) {
 	.attach-block label a:before {
 		display: block;
 		margin-bottom: 10px;
 	}
-}
+} */
 @media all and (max-width: 768px) {
 	.attach-block {
 		flex-direction: column;
 		align-items: flex-start;
 	}
-	.attach-block label {
+	.attach-block input {
 		margin-bottom: 40px;
 	}
 	.form-mail-block {
@@ -5205,5 +5214,225 @@ td>span {
 	#addPhoto-mail {
 		width: 100%;
 		margin-bottom: 30px;
+	}
+}
+
+/* МОДАЛЬНОЕ ОКНО ВЫБОР МАТЕРИАЛА */
+
+#modal-choose .modal-header {
+	height: 70px;
+	text-align: left;
+	padding-left: 20px;
+	border:none;
+}
+#modal-choose .modal-footer {
+	height: 0;
+	background-color: #f3f3f3;
+	border:none;
+	padding: 0;
+}
+#modal-choose .modal-content {
+	height: 550px;
+}
+#modal-choose h2 {
+	text-transform: uppercase;
+	font-size: 26px;
+	color: #333;
+}
+#modal-choose .modal-body {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	background-color: #f3f3f3;
+	height: 100%;
+	border:none;
+}
+#modal-choose .nav {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: 100px;
+	overflow-y: scroll;
+	margin-right: 15px;
+	height: 90%;
+}
+#modal-choose .nav::-webkit-scrollbar {
+	width: 2px;
+	background-color: #eaeaea;
+}
+#modal-choose .nav::-webkit-scrollbar-button {
+	display: none;
+}
+#modal-choose .nav::-webkit-scrollbar-thumb {
+	max-height: 70px;
+	background-color: #e1707c;
+}
+#modal-choose .nav::-webkit-scrollbar-track {
+	background-color: #eaeaea;
+	width: 2px;
+}
+#modal-choose .nav::-webkit-scrollbar-track-piece {
+	background-color: #eaeaea;
+	width: 2px;
+}
+
+#modal-choose .modal-dialog {
+	width: 60%;
+	height: 40vw;
+	overflow:hidden;
+}
+#modal-choose ul>li>a {
+	display: block;
+	font-size: 18px;
+	color:#333;
+	text-transform:none;
+	padding: 5px 0;
+	border:none;
+}
+#modal-choose ul>li>a:hover {
+	color:#e1707c;
+}
+#modal-choose .nav-tabs {
+	border:none;
+}
+#modal-choose .nav-tabs>li.active>a, 
+#modal-choose .nav-tabs>li.active>a:focus, 
+#modal-choose .nav-tabs>li.active>a:hover {
+	border: none;
+	color:#e1707c;
+}
+#modal-choose .tab-content {
+	width: calc(100% - 100px);
+	height: 100%;
+}
+#modal-choose .examples {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	height: 300px;
+}
+.examples .mat-img {
+	width: 30%;
+	height: 100%;
+	background-image:url(img/busket-bcg.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-right: 15px;
+}
+.examples .fresco-img {
+	width: 70%;
+	height: 100%;
+	background-image:url(img/about2.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#modal-choose .tab-pane p {
+	margin-top: 20px;
+	font-size: 18px;
+	color:#333;
+}
+#modal-choose .submit-block {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+#modal-choose .price-part p>span {
+	font-size: 22px;
+	color:#e1707c;
+}
+@media all and (max-width: 1680px) {
+	#modal-choose .examples {
+		height: 250px;
+	}
+}
+@media all and (max-width: 1366px) {
+	#modal-choose .examples {
+		height: 200px;
+	}
+}
+@media all and (max-width: 1280px) {
+	#modal-choose .examples {
+		height: 160px;
+	}
+}
+@media all and (max-width: 1024px) {
+	#modal-choose .modal-dialog {
+		width: 80%;
+		height: 50vw;
+	}
+	#modal-choose .modal-content {
+		height: 500px;
+	}
+}
+@media all and (max-width: 768px) {
+	#modal-choose .modal-dialog {
+		width: 80%;
+		height: 80vw;
+	}
+	#modal-choose .modal-content {
+		height: 600px;
+	}
+}
+@media all and (max-width: 640px) {
+	#modal-choose .modal-dialog {
+		width: 90%;
+		height: 100%;
+	}
+	#modal-choose .modal-content {
+		height: 100vw;
+	}
+	#modal-choose .submit-block {
+		flex-direction: column;
+	}
+	#modal-choose .tab-content {
+		display: block;
+	}
+	.examples .mat-img {
+		width: 40%;
+	}
+	.examples .fresco-img {
+		width: 60%;
+	}
+}
+@media all and (max-width: 550px) {
+	#modal-choose .modal-dialog {
+		width: 95%;
+		height: auto;
+	}
+	#modal-choose .modal-content {
+		height: auto;
+	}
+	#modal-choose .submit-block {
+		flex-direction: column;
+	}
+	#modal-choose .examples {
+		flex-direction: column;
+		height: 300px;
+	}
+	#modal-choose .tab-content {
+		display: block;
+	}
+	.examples .mat-img {
+		width: 70%;
+		margin-bottom: 15px;
+		margin-right: 0;
+	}
+	.examples .fresco-img {
+		width: 70%;
+	}
+}
+@media all and (max-width: 420px) {
+	.examples .mat-img {
+		width: 100%;
+	}
+	.examples .fresco-img {
+		width:100%;
+	}
+	#modal-choose .submit-order {
+		width: 90%;
 	}
 }

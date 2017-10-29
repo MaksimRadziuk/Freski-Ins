@@ -228,3 +228,11 @@ for (i = 0; i < sl.length; i++) {
 $("[data-fancybox]").fancybox({
 
   });
+
+
+//вызов выбора материала
+$(document).ready(function(){
+  $("#chooseMaterial").click(function() {
+    $("#modal-choose").modal('show');
+  });
+});
