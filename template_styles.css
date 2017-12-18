@@ -13,6 +13,9 @@ a:focus {
 	text-decoration: none;
 	color:#fff;
 }
+label {
+	font-weight: 400;
+}
 
 /* ======== TOPBAR ==========*/
 .container-fluid {
@@ -3243,15 +3246,15 @@ footer .row {
     pointer-events: none;
     width: 40px;
     position: absolute;
-    top: 2px;
-    height: 90%;
-    right: 2px;
+    top: 1px;
+    height: 28px;
+    right: 1px;
     background-color: #fff;
 }
 .select-side i {
 	font-size: 16px;
 	color:#afb09f;
-	line-height: 25px;
+	line-height: 28px;
 	margin-left: 20px;
 }
 option[default] { 
@@ -4129,14 +4132,14 @@ option[default] {
 .select-cover {
 	position: absolute;
 	width: 20px;
-	height: 20px;
-	right: 5px;
-	top: 5px;
+	height: 28px;
+	right: 1px;
+	top: 1px;
 	background-color: #fff;
 	pointer-events: none;
 }
 .select-cover i {
-	line-height: 20px;
+	line-height: 28px;
 	font-size: 18px;
 	color: #c6c6c6;
 	pointer-events: none;
@@ -4813,8 +4816,12 @@ s
 	color:  #a49797;
 }
 .param-line .left-select-box .select-cover {
-	top: 2px;
+	top: 1px;
 	pointer-events: none;
+	height: 23px;
+}
+.param-line .left-select-box .select-cover i {
+	line-height: 23px;
 }
 .param.invisible {
 	width: 22%;
@@ -5980,10 +5987,10 @@ td>span {
 	transition: all 0.1s linear;
 }
 .typeFilter a:hover{
-	padding: 20px 30px;
-	color: #fff;
+	text-decoration: underline;
+}
+.typeFilter a.active:hover{
 	text-decoration: none;
-	background-color: #e26f7c;
 }
 .typeFilter a.active {
 	color: #fff;
@@ -6071,7 +6078,7 @@ td>span {
 	margin-left: 25px;
 	font-size: 18px;
 }
-.formBlock input[type="number"] {
+.formBlock input[type="text"] {
 	width: 70px;
 	height: 40px;
 	border:1px solid #c7c5c6;
@@ -6304,7 +6311,7 @@ td>span {
 		margin-right: 20px;
 	}
 }
-@media all and (max-width: 1365px) {
+@media all and (max-width: 1366px) {
 	.Img {
 		min-width: 200px;
 		height: 200px;
