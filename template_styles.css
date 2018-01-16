@@ -2881,6 +2881,14 @@ footer .row {
 	  height:80vh;
 	  overflow:hidden;
 	}
+	.slider-box{
+	  min-height: 530px;
+	  max-height: 550px;
+	}
+	.slide-img {
+		min-height: 530px;
+	  	max-height: 550px;
+	}
 
 	#viewport {
 	    height: 100%;
@@ -3095,7 +3103,12 @@ footer .row {
 		margin-left: -80px;
 	}
 	.slider-box{
+	  min-height: 480px;
 	  max-height: 500px;
+	}
+	.slide-img {
+		min-height: 480px;
+	  	max-height: 500px;
 	}
 	.slider-nav-wrap {
 		max-height: 500px;
@@ -6197,11 +6210,19 @@ td>span {
 	border-top:2px solid #b0a2a1;
 	padding-top: 40px;
 }
+.textureWrap .row {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 50px;
+}
 .textureBox {
+	position: relative;
+	top: 0;
+	bottom: 0;
+	height: 100%;
 	width: 46%;
 	padding-bottom: 20px;
 	border-bottom: 2px solid #b0a2a1;
-	margin-bottom: 50px;
 }
 .textureBox:nth-child(2n-1) {
 	margin-right: 7%;
@@ -6412,6 +6433,8 @@ td>span {
 @media all and (max-width: 886px) {
 	.textureBox {
 		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.Img {
 		height: 200px;

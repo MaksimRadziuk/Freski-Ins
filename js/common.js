@@ -164,3 +164,27 @@ $(document).ready(function(){
     $("#modal-choose").modal('show');
   });
 });
+
+
+// установка высоты блока материалы в зависимости от родительского 
+/*$(document).ready(function(){
+  if (window.innerWidth > 886) {
+    var textureHeight = $('.textureBox').parent('.textureRow').height();
+    $(".textureBox").css('height', textureHeight);
+  }
+  else {}
+});*/
+
+$(document).ready(function(){
+  if (window.innerWidth > 886) {
+    
+    $(".textureBox").each(function(){ 
+      var h = $(this).closest(".textureRow").height(); 
+      $(this).css('height', h); 
+    });
+
+  }
+
+  else {}
+
+});
